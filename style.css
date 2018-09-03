@@ -1,0 +1,149 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #0d3351;
+  background-color: #f3f3f3;
+}
+
+.page {
+	width: 1673px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header {
+  height: 647px;
+  background-color: #ffffff;
+  background-image: url("img/header/back-main.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-bar, .footer-menu {
+  list-style: none;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #0d3351;
+  font-weight: 300;
+}
+
+.nav-bar a:hover {
+  text-decoration: underline;
+}
+
+.nav-bar a:active {
+  color: rgba(13, 51, 81, 0.6);
+}
+
+.phone a {
+  text-decoration: none;
+  color: #0d3351;
+  font-family: 'Arimo', serif;
+  letter-spacing: 1px;
+}
+
+.phone-desc {
+  font-size: 10px;
+}
+
+h1, h2 {
+  font-family: 'Roboto Slab', serif;
+  line-height: 48px;
+  text-align: center;
+}
+
+.label-value h1 {
+  font-size: 100px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+a.btn {
+  background-color: #33c7fd;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 100;
+  letter-spacing: 0.8px;
+}
+
+.btn:hover {
+  background-color: #00a2dd;
+}
+
+.btn:active {
+  background-color: #00a2dd;
+  color: #0d3351;
+}
+
+.sorting {
+  text-align: center;
+}
+
+.sorting a {
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.sorting span {
+  font-style: italic;
+}
+
+.catalog-item {
+  background-color: #ffffff;
+}
+
+.catalog-item a {
+  text-decoration: none;
+}
+
+.catalog-item h3 {
+  font-family: 'RobotoSlab', serif;
+  color: #00a2dd;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 48px;
+  letter-spacing: 0.8px;
+}
+
+.catalog-item p {
+	font-weight: 400;
+	letter-spacing: 0.8px;
+}
+
+.catalog-item p span {
+	font-weight: 600;
+}
+
+.catalog-item .price {
+	font-family: 'RobotoSlab', serif;
+}
+
+.catalog-item .new {
+	font-size: 30px;
+}
+
+.catalog-item .old {
+	color: #7a8f9f;
+	font-size: 18px;
+	text-decoration: line-through; 
+}
+
+.footer-menu a {
+	text-decoration: none;
+	color: #0d3351;
+}
